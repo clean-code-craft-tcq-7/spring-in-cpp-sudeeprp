@@ -2,6 +2,7 @@
 #include <numeric>
 #include <limits>
 #include <algorithm>
+#include <cmath>
 
 bool readingsAreOutOfRange(const std::vector<float>& readings) {
     bool hasOutOfRange = false;
